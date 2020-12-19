@@ -17,6 +17,189 @@
 
 <body>
 
+  <h1>New Address</h1>
+  <p>
+    <img
+      src="images/new_address.jpg"
+      alt="images/new_address.jpg"
+    >
+  </p>
+
+  <p><b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.</p>
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fuga obcaecati unde magni vero voluptatibus
+    consequuntur. Laborum suscipit ipsa soluta, quas veritatis cum porro temporibus maiores! Cum voluptas aspernatur
+    necessitatibus.</p>
+
+  <h2>Useful links</h2>
+  <ul>
+    <li>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.google.com/maps</a>
+    </li>
+    <li><a
+        href="https://www.coduripostale.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.coduripostale.com</a></li>
+  </ul>
+
+  <h2>Address Form</h2>
+
+  <form action="/">
+    <fieldset>
+      <legend>Address Information:</legend><br>
+
+      <label for="male">Male</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+
+      <label for="female">Female</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+        checked
+      >
+
+      <label for="na">Na</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+        checked
+      ><br><br>
+
+      <label for="name">*Name</label>
+
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      ><br><br>
+
+      <label for="surname">*Surname</label>
+
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+
+      <label for="phone">*Phone</label>
+
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      ><br><br>
+
+      <label for="address1">*Address1</label>
+
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      ><br><br>
+
+      <label for="address2">Address2</label>
+
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+      ><br><br>
+
+      <label for="city">*City</label>
+
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      ><br><br>
+
+      <label for="state">*State</label>
+
+
+      <select
+        name="state"
+        id="state"
+        required
+      ></option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>
+        >
+      </select><br><br>
+
+      <label for="postcode">*Post code</label>
+
+      <select
+        name="postcode"
+        id="postcode"
+        aria-placeholder="Postcode"
+        required
+      >
+        <option value="5100">5100</option>
+        <option value="5200">5200</option>
+        <option value="5400">5400</option>
+        <option value="5500">5500</option>
+        <option value="5600">5600</option>
+        <option value="5700">5700</option>
+      </select><br><br>
+
+      <label for="gdpr-consent">*Gdpr-consent</label>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      ><br><br>
+
+      <button
+        type="submit"
+        id="submit"
+        name="submit"
+      >Submit</button>
+
+      <button
+        type="reset"
+        id="reset"
+        name="reset"
+      >Reset</button>
+    </fieldset>
+
+  </form>
 
   <div
     class="pixeltab-host"
