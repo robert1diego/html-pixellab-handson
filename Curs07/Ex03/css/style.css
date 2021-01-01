@@ -1,23 +1,30 @@
 body {
   padding: 150px;
+  background-color: #eee;
 }
 
 .box {
   width: 150px;
   height: 150px;
   margin: 25px;
-  border: 1px solid black;
+  border: 1px solid green;
   float: left;
 }
 
 .box-1 {
   background-color: aquamarine;
+  border: 1px solid green;
+  color: purple;
 }
 
 .box-2 {
   background-color: brown;
+  border: 1px solid grey;
+  color: white;
 }
 
 .box-3 {
   background-color: bisque;
+  border: 1px solid blue;
+  color: red;
 }
