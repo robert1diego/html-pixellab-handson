@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffff;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 4076px;
+}
+.header {
+  background-color: rgb(255, 145, 0);
+}
+.header-social a {
+  top: 43px;
+  left: 474px;
+  width: 20px;
+  height: 16px;
+}
