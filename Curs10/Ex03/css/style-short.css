@@ -1,0 +1,33 @@
+.pane-short .heading {
+  text-decoration: underline solid red;
+  padding: 10px 11px;
+  border: 1px dashed green;
+}
+
+.pane-short .container p {
+  border: 1px solid royalblue;
+  margin: 11px 22px 13px 15px;
+  padding: 8px 10px;
+  text-decoration: underline solid lawngreen;
+}
+
+.pane-short .container .para {
+  text-decoration: underline wavy darkblue;
+  margin: 5px 5px;
+}
+.pane-short .container .short-para {
+  text-decoration: underline dashed magenta;
+  width: 75%;
+  margin: 11px auto;
+  border: 1px solid blueviolet;
+  padding: 2px 10px 5px 10px;
+}
+.pane-short .anchor-list li a {
+  text-decoration: overline solid lightcoral;
+  margin: 5px 10px;
+  padding: 2px 4px 5px 9px;
+}
+
+.pane-short .list li {
+  text-decoration: line-through double brown;
+}

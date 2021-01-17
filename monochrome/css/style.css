@@ -7,11 +7,5 @@ body {
   height: 4076px;
 }
 .header {
-  background-color: rgb(255, 145, 0);
-}
-.header-social a {
-  top: 43px;
-  left: 474px;
-  width: 20px;
-  height: 16px;
+  background-color: rgb(219, 94, 11);
 }

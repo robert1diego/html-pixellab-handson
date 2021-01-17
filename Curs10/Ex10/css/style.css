@@ -1,0 +1,25 @@
+body {
+  color: green;
+}
+
+ol li a {
+  color: green;
+}
+
+a :hover {
+  text-decoration: none;
+}
+.list li {
+  list-style-type: none;
+}
+.list {
+  list-style-type: none;
+}
+
+.para-short {
+  width: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px black solid;
+  text-align: center;
+}

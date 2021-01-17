@@ -1,0 +1,35 @@
+.pane-short .heading {
+  margin: 12px 0px 12px 5px;
+}
+.pane-short .container {
+  padding: 15px 8px 15px 4px;
+}
+.pane-short .short-para {
+  width: 65%;
+  border: 1px solid gold;
+  margin: 12px auto;
+  padding: 5px 8px;
+}
+
+.pane-short .para {
+  padding: 10px;
+}
+
+.pane-short .list {
+  padding: 0 0 0 8px;
+}
+.pane-short .list li {
+  margin: 5px 0 12px 5px;
+}
+
+.pane-short .navigation {
+  margin: 10px 15px 10px 8px;
+}
+
+.pane-short .anchor-list {
+  margin: 5px 5px;
+}
+.pane-short .anchor-list li {
+  display: inline-block;
+  margin: 0 10px;
+}

@@ -1,0 +1,42 @@
+.my-first-list a {
+  display: block;
+}
+.my-first-list a::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: purple;
+  transform: rotate(45deg);
+}
+
+.my-first-list a::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.my-second-list a::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-color: blue;
+  transform: rotate(45deg);
+}

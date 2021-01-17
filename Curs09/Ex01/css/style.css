@@ -1,3 +1,45 @@
-ul, ol {
+ul,
+ol {
   list-style-type: none;
+}
+.para {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.para span {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid red;
+}
+ul li {
+  display: inline;
+}
+.para-large {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.para-large span {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px dotted green;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+ol li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

@@ -1,0 +1,42 @@
+.pane-short .heading {
+  border: 1px dashed red;
+  padding: 5px 5px 5px 15px;
+}
+.pane-short .container {
+  border: 2px solid gray;
+  margin: 18px 22px;
+  padding: 8px 8px;
+}
+.pane-short .para {
+  border: 1px dotted red;
+  padding: 3px 3px;
+  margin: 15px auto;
+}
+
+.pane-short .short-para {
+  border: 1px solid wheat;
+  width: 50%;
+  margin: 15px auto;
+  padding: 8px 8px;
+}
+
+.pane-short .container p {
+  border: 2px dashed brown;
+  padding: 5px 2px;
+}
+.pane-short .anchor-list {
+  border: 1px solid royalblue;
+  overflow: hidden;
+  padding: 12px 20px 6px 8px;
+}
+.pane-short .anchor-list li {
+  border: 1px dashed green;
+  float: left;
+  padding: 10px 5px;
+  margin: 5px 5px;
+}
+.pane-short .list li {
+  border: 2px dotted blueviolet;
+  margin: 2px 25% 8px 15px;
+  padding: 3px 3px;
+}
